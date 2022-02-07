@@ -11533,6 +11533,90 @@ header.masthead .masthead-heading {
   opacity: 0.3;
 }
 
+#otherInterests .interest-item {
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#otherInterests .interest-item .interest-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+#otherInterests .interest-item .interest-link .interest-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 200, 0, 0.9);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
+}
+#otherInterests .interest-item .interest-link .interest-hover .interest-hover-content {
+  font-size: 1.25rem;
+  color: white;
+}
+#otherInterests .interest-item .interest-link:hover .interest-hover {
+  opacity: 1;
+}
+#otherInterests .interest-item .interest-caption {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #fff;
+}
+#otherInterests .interest-item .interest-caption .interest-caption-heading {
+  font-size: 1.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  margin-bottom: 0;
+}
+#otherInterests .interest-item .interest-caption .interest-caption-subheading {
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.interest-modal .modal-dialog {
+  margin: 1rem;
+  max-width: 100vw;
+}
+.interest-modal .modal-content {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+.interest-modal .modal-content h2, .interest-modal .modal-content .h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.interest-modal .modal-content p.item-intro {
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.interest-modal .modal-content p {
+  margin-bottom: 2rem;
+}
+.interest-modal .modal-content ul.list-inline {
+  margin-bottom: 2rem;
+}
+.interest-modal .modal-content img {
+  margin-bottom: 2rem;
+}
+.interest-modal .close-modal {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+.interest-modal .close-modal:hover {
+  opacity: 0.3;
+}
+
 .timeline {
   position: relative;
   padding: 0;
@@ -11700,19 +11784,6 @@ header.masthead .masthead-heading {
     padding: 0 100px 20px 20px;
   }
 }
-.team-member {
-  margin-bottom: 3rem;
-  text-align: center;
-}
-.team-member img {
-  width: 14rem;
-  height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
-}
-.team-member h4, .team-member .h4 {
-  margin-top: 1.5rem;
-  margin-bottom: 0;
-}
 
 .img-brand {
   height: 2.75rem;
@@ -11783,6 +11854,18 @@ section#flyingInterlude{
 	-o-background-size:cover;
 	color:#fff
 	}
+
+  section#flyingInterlude2{
+  	height:450px;
+  	background-color:#222;
+  	background-image:url(../../img/Transition1.jpg);
+  	background-attachment:fixed;
+  	-webkit-background-size:cover;
+  	-moz-background-size:cover;
+  	background-size:cover;
+  	-o-background-size:cover;
+  	color:#fff
+  	}
 
 .footer {
   text-align: center;
