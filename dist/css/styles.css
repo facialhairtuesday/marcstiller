@@ -11772,6 +11772,18 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #ced4da;
 }
 
+section#flyingInterlude{
+	height:450px;
+	background-color:#222;
+	background-image:url(../../img/Transition2.jpeg);
+	background-attachment:fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+	color:#fff
+	}
+
 .footer {
   text-align: center;
   font-size: 0.9rem;
